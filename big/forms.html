@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Web Developer Examples and Resources by Hanan Osman</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/big.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+     <!-- jQuery -->
+     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+     
+     <!-- MenuMaker Plugin -->
+     <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+     
+     <!-- Icon Library -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+     
+     <script src="js/script.js"></script>
+     
+ </head>
+ <body>
+     
+   <main>
+       <header>
+           <h1><a href="index.html">Web Developer Examples and Resources by Hanan Osman</a></h1>
+             <nav id="cssmenu">
+              <ul>
+                 <li><a href="../index.html"><i class="fa fa-fw fa-institution"></i> IT161</a></li>
+                 <li><a href="index.html"><i class="fa fa-fw fa-home"></i> BIG Website</a></li>
+                 <li><a href="gallery.html"><i class="fa fa-fw fa-camera-retro"></i> Lightbox II Gallery</a></li>
+                <!-- DROP DOWN MENU FOR RESEARCH PAGES -->
+                 <li><a href="#">Research Topics</a>
+                    <ul>
+                       <li><a href="accessibility.html"><i class="fa fa-fw fa-globe"></i> Accessibility</a></li>
+                       <li><a href="smo.html"><i class="fa fa-fw fa-thumbs-o-up"></i> SMO</a></li>
+                       <li><a href="forms.html"><i class="fa fa-fw fa-server"></i> Forms</a></li>
+                    </ul>
+                 </li> 
+                  
+                <!-- DROP DOWN MENU FOR GOOGLE PAGES -->
+                 <li><a href="#">Google  Tools</a>
+                    <ul>
+                       <li><a href="seo.html"><i class="fa fa-fw fa-desktop"></i> SEO</a></li>
+                       <li><a href="calendar.html"><i class="fa fa-fw fa-calendar"></i> Calendar</a></li>
+                       <li><a href="map.html"><i class="fa fa-fw fa-map-o"></i> Map</a></li>
+                    </ul>
+                 </li>
+                  
+                 <li><a href="contact.php"><i class="fa fa-fw fa-server"></i> Contact Me</a></li>
+              </ul>
+             </nav>
+        </header>
+       <!-- START LEFT COLUMN -->
+        <section>
+            <h2 class="subheader">Accessibility in Web Design</h2>
+             <p>Forms are an important part of web pages. They allow users to input information so they can send information to the database and get in contact with the company or person owning the website. A lot of people don’t realize the importance of creating a cooperative form. In general, it is best to keep forms simple with the instructions and examples for the user so they can be guided through the form with ease. You should also provide clear error messages and feedback for when the user makes a mistake in their form, such as entering invalid text or forgetting to fill out a question [1].<br/><br/>
+
+            Forms on web pages are typically created with mostly HTML. HTML is used to create interactive input fields to enter text, checkboxes, radio buttons, and lists with selectable options [2]. The basic parts of a form can be categorized as such:<br/>
+            <dl>The form element and its attributes:<br/>
+            <dt><strong>The id attribute</strong></dt><br/>
+                <dd>Gives your form a unique identifier which can be used to add other programming languages for styling, such as CSS and Javascript.</dd><br/>
+            <dt><strong>The method attribute</strong></dt><br/>
+                <dd>This specifies how your form will be sent to the processing script. Two types of methods would “GET” and “POST”. POST is more secure.</dd><br/>
+            <dt><strong>The action attribute</strong></dt><br/>
+                <dd>This specifies which type of script the form will be sent to for processing.</dd><br/></br></dl>
+
+            Within the form tag, you can add the following:<br/>
+            <dl><strong>The input element, which has the following attributes:</strong><br/>
+                <dt>The type attribute</dt><br/>
+                    <dd>Is used to specify what kind of input will be used. It can be single-line text or etc.</dd><br/>
+                <dt>The name attribute</dt><br/>
+                    <dd>Is used to specify what the input is for</dd><br/>
+                <dt>The value attribute</dt><br/>
+                    <dd>Is used to specify what type of value will be inputted. You could not specify anything and accept any input or you could specify that the value would be text or a radio button or a checkbox or even attaching a photo.</dd><br/></dl>
+
+            <dl><dt><strong>The text-area element</strong></dt><br/>
+                    <dd>Is used for multi-line text input. The amount of characters, words, or lines can be limited.</dd><br/>
+            
+                <dt><strong>The input type="submit" tag</strong></dt><br/>
+                    <dd>This tag creates a button, which when pressed sends your form.</dd><br/>
+
+                <dt><strong>Accessibility labels</strong></dt><br/>
+                    <dd>Is used to label the form elements. This is useful for screen readers.</dd><br/></dl>
+
+            Other additional things that can be added to your form can be the field and legends elements and other programming languages such as CSS and Javascript to style your form [2].<br/><br/>
+            </p>
+              
+        </section>
+        <!-- END LEFT COLUMN -->
+
+        <!-- START RIGHT COLUMN -->
+        <aside>
+            <h3>Citations</h3>
+              <dl>
+                  <dt>[1]</dt>
+                  <dd> Bodony, Rachel, and Sara Staffaroni. “Web Forms: Their Importance And How To Improve Them.” <em>Usabilla Blog</em>, SurveyMonkey, 2 Mar. 2020, usabilla.com/blog/web-forms-their-importance-and-how-to-improve-them/.</dd>
+              </dl>
+              <dl>
+                  <dt>[2]</dt>
+                  <dd>“HTML Forms Basics.” <em>HTML Forms Basics · WebPlatform Docs</em>, webplatform.github.io/docs/guides/html_forms_basics/.</dd>
+              </dl>
+        </aside>
+        <!-- END RIGHT COLUMN -->
+
+     <footer>
+      <p><small>&copy; 2021 by <a href="contact.php">Hanan Osman</a>, All Rights Reserved ~ <a href="https://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+    </footer>
+  </main>
+     
+     
+ </body>
+</html>
