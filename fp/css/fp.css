@@ -1,0 +1,202 @@
+/* FP Website */
+
+html {
+    background-color:#D6E1FF;
+    
+}
+
+main {
+    background-color:#FFF6EA;
+    width:50%;
+    margin: auto;
+    padding-right: 5%; 
+    padding-left: 5%; 
+    padding-top: 2%
+    border: 1px outset;
+    border-radius: 20px;
+}
+
+.header {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #2D3E4C;
+    font-family: lucida console;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%; 
+    text-shadow: 1px 1px 1px;
+    letter-spacing: 4px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%; 
+    width: 200px;
+    height: 94px;
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.subheader {
+    display: inline-block;
+    padding: 6px;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #000000;
+    font-family: lucida console;
+    border: 1px inset #F7EAD9;
+    background-color: #F7EAD9;
+    border-radius: 8px;
+}
+
+.gallerybutton {
+    text-decoration: none;
+    border: 3px outset;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    padding: 7px;
+    color: #BAC6E2;
+    font-family: VT323, serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px;
+}
+
+.fullwidth {
+    width:100%;
+}
+
+.halfwidth {
+    width:60%;
+    float: left;
+}
+
+img {
+    width:95%;
+    margin-top: 14px;
+    border-radius: 8px;
+}
+
+.aboutimage {
+    margin-top: 8%;
+    float: right;
+    width: 30%;
+    border-radius: 8px;
+}
+
+div.gallery {
+    text-align:center;
+}
+
+figure {
+    display:inline-block;
+    margin:.25%;
+}
+
+img.socials {
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+
+/* START - EMBED RESPONSIVELY STYLES */
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    }
+
+/* END - EMBED RESPONSIVELY STYLES */
+
+/* HIDE AGENDA VIEW CALENDAR */
+
+.embed-container.agenda-view{
+    display:none;
+}
+
+
+footer {
+    padding:3em;
+    text-align:center;
+    clear:both;
+}
+
+a {
+    color: #000;
+}
+
+footer:visited {
+          color: #99CFFF;
+          background-color: transparent;
+          text-decoration: none;
+        }
+
+/* PHONE STYLES */
+
+@media all and (max-width:600px) {
+    main {
+        width:100%;
+    }
+    
+    section {
+        float:none;
+        width:100%;
+    }
+
+    aside {
+        float:none;
+        width:100%;
+    }
+}
+
+
+/* TABLET STYLES */
+
+@media all and (max-width:984px) {
+    main {
+        width:60%;
+    }
+}
+
+
+/* IMAGES - PHONE RULES */
+
+@media all and (max-width:600px) {
+    
+    div.wrapper {
+        width:100%;
+    }
+    
+    img.desktop, img.tablet {
+        display:none;
+    }
+    
+    .aboutimage {
+        padding-top: 0px;
+        float: none;
+        width: 100%;
+    }
+
+    .halfwidth {
+        width:100%;
+        float: none;
+    }
+}
+
+
+
